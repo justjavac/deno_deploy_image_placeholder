@@ -7,7 +7,7 @@ SVG image placeholder
 Usage:
 
 ```
-https://imgph.deno.dev?w=[width]&h=[height]?t=[text]&bg=[backgroundColor]&fg=[textColor]
+https://imgph.deno.dev?w=[width]&h=[height]&t=[text]&bg=[backgroundColor]&fg=[textColor]
 ```
 
 Examples:
