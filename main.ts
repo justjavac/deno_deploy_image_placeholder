@@ -1,7 +1,5 @@
 import { serve } from "https://deno.land/std@0.150.0/http/server.ts";
 
-console.log("Listening on http://localhost:8000");
-
 serve((request) => {
   const searchParams = new URL(request.url).searchParams;
   const w = parseInt(searchParams.get("w") ?? "400");
